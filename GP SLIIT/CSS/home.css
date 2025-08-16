@@ -1,0 +1,107 @@
+body {
+    font-family:Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url('../Images/grey-gradient-background2.jpg');
+}
+
+header {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    background-size: 100px 50px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+#getS {
+    display: block;
+    align-items: center;
+    border: none; 
+    border-radius: 4px;
+    padding: 50px; 
+    background-color: #4CAF50;
+    margin: 10px auto; 
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#getS:hover {
+    background-color: #45a049;
+}
+
+.container { display: flex; 
+    justify-content: space-around; 
+    padding: 20px; 
+}
+
+.card { 
+    
+    background: radial-gradient(666px at 0.4% 48%, rgb(202, 204, 227) 0%, rgb(89, 89, 99) 97.5%);
+    color: rgb(0, 0, 0); 
+    padding: 30px; 
+    border-radius: 5px; 
+    width: 300px; 
+    text-align: center; 
+}
+
+/* .card:nth-child(1) {
+    background-image: url('../Images/24x7.com.png');
+    background-size: 100px 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.card:nth-child(2) {
+    background-image: url('path-to-your-cost-savings-image.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.card:nth-child(3) {
+    background-image: url('path-to-your-appointment-scheduling-image.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+} */
+
+.card h3 { 
+    margin-top: 0; 
+}
+
+.card img { 
+    width: 75px; 
+    height: 75px; 
+}
+
+/* footer {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+} */

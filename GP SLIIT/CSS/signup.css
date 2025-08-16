@@ -1,0 +1,98 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cccccc;
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 150px;
+}
+
+.logo {
+    background-image: url('../Images/Sup1.png');
+    width: 100px;
+    height: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-place {
+    background-image: url('../Images/conv.com.png');
+    padding-bottom: 500px;
+    width: 500px;
+    height: 1000px;
+    margin-bottom: 10px;
+}
+
+.description {
+    padding-top: 10px;
+    background-color: #ddd;
+    width: 500px;
+    height: 200px;
+}
+
+.midline {
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+#sign-conta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    padding: 150px;
+}
+
+.sign-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 50%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alredy-acc {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.inside {
+    text-align: left;
+}
+
+.heading {
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,70 @@
+body {
+    font-family:Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url('../Images/grey-gradient-background2.jpg');
+}
+
+header {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contact-form {
+    width: 40%;
+}
+
+.contact-form h1 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact-form form input, .contact-form form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-form form button {
+    padding: 10px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-info {
+    width: 35%;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+/* footer {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+   
+} */

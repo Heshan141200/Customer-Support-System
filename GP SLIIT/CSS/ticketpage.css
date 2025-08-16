@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/grey-gradient-background2.jpg');
+}
+
+header {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.below {
+    display: flex;
+    height: 100vh;
+    /* background-color: #f1f1f1; */
+}
+
+.left-section {
+    flex: 3;
+    padding: 30px;
+    /* background-color: #f8f8f8; */
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.ticket {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ticket form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.ticket form input[type="text"],
+.ticket form textarea,
+.ticket form select,
+.ticket form input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.ticket form textarea {
+    height: 150px;
+}
+
+.submit-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.midline {
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    /* background-color: #f8f8f8; */
+    background-image: url('../Images/grey-gradient-background2.jpg');
+}
+
+.ad-space {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ad-box1 {
+    width: 100%;
+    height: 150px;
+    background-image: url('../Images/Need\ More\ Benefits.png');
+    background-size: 350px 150px;
+}
+
+.ad-box2 {
+    width: 100%;
+    height: 150px;
+    background-image: url('../Images/Gsup.png');
+    background-size: 350px 150px;
+}
